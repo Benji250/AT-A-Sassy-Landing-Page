@@ -21,12 +21,25 @@ a {
 
 .hero {
   // This is where the bulk of the SCSS styling needs to be done
-
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  img{
+    width: 30%;
+  }
   // Take a look at the other files we've built already. How can they be useful here?
 
   // Also, take time to review the features of SCSS we've already covered:
   // 1. $variables
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
+  &-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
   // 3. At-Rules
 }
 
